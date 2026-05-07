@@ -1,6 +1,8 @@
 # Blog Topics: 
 How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
 
+---
+
 # Introduction: Understanding Generics in TypeScript as a Beginner:
 When I started learning TypeScript, Generics looked very confusing to me. Seeing things like <T> in functions made the code look difficult and advanced. 
 
@@ -8,6 +10,7 @@ At first, I thought maybe Generics was only useful for expert developers. But af
 
 Generics help me write reusable code while keeping TypeScript’s type safety. Instead of creating separate functions for strings, numbers, or other types, I can create one flexible function that works for everything.
 
+---
 
 # The Problem Without Generics:
 Suppose I want a function that returns the second item of an array.
@@ -26,6 +29,8 @@ This works fine, but I am repeating almost the same code.
 If I later need this for boolean arrays or object arrays, I would need even more functions.
 
 That’s where Generics become useful.
+
+---
 
 # Using Generics
 
@@ -56,6 +61,7 @@ b) text is a string
 
 That’s the interesting part. I wrote only one function, but TypeScript still keeps the correct types.
 
+---
 
 # Why Generics Are Helpful:
 As a beginner, the biggest benefit of Generics is reducing repeated code.
@@ -94,6 +100,8 @@ showData<number>(38);
 showData<boolean>(true);
 ```
 
+---
+
 # What I Learned About Generics:
 
 When I first saw Generics, I tried to memorize the syntax. That made it harder.
@@ -108,6 +116,7 @@ The <T> is not magic. It’s just a way to tell TypeScript:
 
 “The type can change depending on what is passed.”
 
+---
 
 # Final Thoughts & Conclusion:
 

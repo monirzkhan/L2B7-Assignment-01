@@ -1,4 +1,4 @@
-// Problem 1:
+// Solution of Problem 1:
 
 const filterEvenNumbers = (numbers: number[]): number[] => {
   return numbers.filter(num => num % 2 === 0);
@@ -6,7 +6,9 @@ const filterEvenNumbers = (numbers: number[]): number[] => {
 
 filterEvenNumbers([1, 2, 3, 4, 5, 6]);
 
-// Problem 2:
+
+
+// Solution of Problem 2:
 
 const reverseString = (str: string): string => {
   return str.split('').reverse().join('');
@@ -14,7 +16,9 @@ const reverseString = (str: string): string => {
 
 reverseString("typescript");
 
-// Problem 3:
+
+
+// Solution of Problem 3:
 
 const checkType= (value: string | number): string | number => {
   if (typeof value === "string") {
@@ -28,16 +32,20 @@ checkType("Hello");
 checkType(42);
 
 
-//problem 4:
 
-const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
+//Solution of Problem 4:
+
+const getProperty = <T, X extends keyof T>(obj: T, key: X): T[X] => {
   return obj[key];
 };
 
 const user = { id: 1, name: "John Doe", age: 21 };
+
 getProperty(user, "name");
 
-//Problem 5:
+
+
+//Solution of Problem 5:
 
 interface Book{
     title: string;  
@@ -60,7 +68,8 @@ const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2
 toggleReadStatus({ ...myBook, isRead: false});
 
 
-//Problem 6:
+
+//Solution of Problem 6:
 
 class Person{
     name: string;
@@ -80,11 +89,11 @@ class Student extends Person{
         this.grade = grade;
     }
 
-    getDetails(): { name: string; age: number; grade: string }{
+    getDetails(): { Name: string; Age: number; Grade: string }{
         return {
-            name: this.name,
-            age: this.age,
-            grade: this.grade
+            Name: this.name,
+            Age: this.age,
+            Grade: this.grade
         }
     }
 }
@@ -92,7 +101,9 @@ class Student extends Person{
 const student = new Student("Alice", 20, "A");
 student.getDetails();
 
-//Problem 7:
+
+
+//Solution of Problem 7:
 
 const getIntersection = <T>(arr1: T[], arr2: T[]): T[] => {
     const secondArray = new Set(arr2);

@@ -11,9 +11,7 @@ But after writing more code, I realized I was repeating the same things again an
 
 That’s when I learned about the utility types of typescript,  `Pick` and `Omit`.
 
-These utility types help create smaller “slices” from a main interface without rewriting everything. They also help keep the code DRY, which means:
-
-> Don’t Repeat Yourself (DRY)
+These utility types help create smaller “slices” from a main interface without rewriting everything. They also help keep the code DRY, which means: Don’t Repeat Yourself (DRY)
 
 And as a beginner, this concept actually made my TypeScript code feel much cleaner.
 
@@ -121,6 +119,8 @@ This creates a new type without the password field.
 
 I personally found this easier to understand because the name itself explains what it does.
 
+---
+
 # Why This Is Helpful:
 
 The biggest advantage is that everything stays connected to the main interface.
@@ -148,6 +148,8 @@ That means:
 3. Cleaner structure
 4. Fewer mistakes
 
+---
+
 # Simple Real-Life Example:
 
 ```ts
@@ -160,6 +162,7 @@ With just two lines, I created two different types from one interface.
 
 That’s much better than writing everything again.
 
+---
 
 # What I Learned from This:
 
@@ -174,6 +177,8 @@ keeping code cleaner
 making updates easier later
 
 And honestly, once I started using them, my interfaces looked much more organized.
+
+---
 
 # Final Thoughts and Conclusion:
 
