@@ -71,12 +71,13 @@ In this blog, I discussed:
 # Project Structure
 
 ```bash
-├── solutions.ts
-├── blog-1.md
-├── blog-2.md
+Assignment-01
+├──src
+    ├── solutions.ts
+    ├── blog-1.md
+    ├── blog-2.md
 │
 ├── tsconfig.json
-├── package.json
 └── README.md
 ```
 
@@ -102,7 +103,7 @@ As I am still learning TypeScript, this assignment helped me understand many con
 ## Install Dependencies
 
 ```bash
-npm install
+npm install typescript
 ```
 
 ## Compile TypeScript
@@ -111,7 +112,7 @@ npm install
 tsc
 ```
 
-## Run JavaScript File
+## Run TypeScript File
 
 ```bash
 node solutions.ts
@@ -123,8 +124,9 @@ node solutions.ts
 
 ### Mohammad Moniruzzaman
 >email: ceo@touchandgreet.com
+
 >Level 2 Batch 7 Student, Programming Hero  
 
-Currently learning TypeScript and Full Stack Development.
+Currently learning TypeScript and Full Stack Web Development.
 
 ---
