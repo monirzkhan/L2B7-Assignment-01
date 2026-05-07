@@ -56,7 +56,7 @@ This code works. But there’s a problem.
 
 I am repeating fields from the main interface again and again.
 
-Later, if I change something in the original `User` interface, I also need to update all the copied interfaces manually.
+Later, if I change something in the original `IUser` interface, I also need to update all the copied interfaces manually.
 
 That can easily create bugs and confusion.
 
@@ -186,8 +186,9 @@ Learning `TypeScript` can feel overwhelming sometimes because there are many new
 
 For me, the easiest way to think about them is:
 
-Pick → take only what you need
-Omit → remove what you don’t need
+`Pick` → take only what you need
+
+`Omit` → remove what you don’t need
 
 That’s it.
 
