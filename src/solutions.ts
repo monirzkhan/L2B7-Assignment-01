@@ -89,17 +89,14 @@ class Student extends Person{
         this.grade = grade;
     }
 
-    getDetails(): { Name: string; Age: number; Grade: string }{
-        return {
-            Name: this.name,
-            Age: this.age,
-            Grade: this.grade
-        }
+    getDetails(){
+        return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
     }
 }
 
 const student = new Student("Alice", 20, "A");
 student.getDetails();
+
 
 
 
