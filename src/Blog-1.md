@@ -1,7 +1,7 @@
-Blog Topics: How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
+# Blog Topics: 
+How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
 
-# Introduction:
-# Understanding Generics in TypeScript as a Beginner:
+# Introduction: Understanding Generics in TypeScript as a Beginner:
 When I started learning TypeScript, Generics looked very confusing to me. Seeing things like <T> in functions made the code look difficult and advanced. 
 
 At first, I thought maybe Generics was only useful for expert developers. But after learning step by step, I realized the idea is actually simple. 
