@@ -16,7 +16,7 @@ reverseString("typescript");
 
 // Problem 3:
 
-const checkType= (value: string | number): string| number => {
+const checkType= (value: string | number): string | number => {
   if (typeof value === "string") {
     return 'String';
   } else {
@@ -26,3 +26,15 @@ const checkType= (value: string | number): string| number => {
 
 checkType("Hello");
 checkType(42);
+
+
+//problem 4:
+
+const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
+  return obj[key];
+};
+
+const user = { id: 1, name: "John Doe", age: 21 };
+getProperty(user, "name");
+
+
